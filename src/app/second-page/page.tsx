@@ -17,7 +17,7 @@ export default function Home() {
       <main>
         <h2>The Harlem Renaissance</h2>
         <div className="card-grid">
-            {HRData.map(el => {
+            {HRData.map((el, i) => {
                 return (
                   <Card 
                       title={el.Title}
