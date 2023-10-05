@@ -16,6 +16,9 @@ export default function Home() {
 
       <main>
         <h2>The Harlem Renaissance</h2>
+
+        <h4>The Harlem Renaissance was an era in the 1920’s and 1930’s that took Place in Harlem, New York. Over 60% of Harlem is populated by African American and Hispanic people. During this time there was a lot of music, poetry, literature, performances and activism involved with this era. This era was widely known as a rebirth of African American arts. Some icons of this time period were Langston Hughes, Zora Hurston and W.E.B Dubois.</h4>
+
         <div className="card-grid">
             {HRData.map((el) => {
                 return (
