@@ -19,12 +19,13 @@ export default function Home() {
         <div className="card-grid">
             {HRData.map(el => {
                 return (
-                    <Card 
-                        title={el.Title}
-                        imageUrl={el.ImageURL}
-                        desc={el.Description}
-                    ></Card>
-                )
+                  <Card 
+                      title={el.Title}
+                      imageUrl={el.ImageURL}
+                      desc={el.Description}
+                      key={i}
+                  ></Card>
+              )
             })}
         </div>
       </main>
