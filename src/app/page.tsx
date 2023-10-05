@@ -17,13 +17,13 @@ export default function Home() {
       <main>
         <h1>The Harlem Renaissance</h1>
         <div className="card-grid">
-            {HRData.map((el, i) => {
+            {HRData.map((el) => {
                 return (
                     <Card 
                         title={el.Title}
                         imageUrl={el.ImageURL}
                         desc={el.Description}
-                        key={i}
+                        key={el.Title}
                     ></Card>
                 )
             })}
