@@ -16,7 +16,7 @@ const Card: React.FC<CardProps> = ({ imageUrl, title, desc }) => {
             src={imageUrl}
             width={800/2}
             height={500/2}
-            alt="Picture of the Cotton Club"
+            alt="Picture"
             style={{
               borderRadius: "2rem"
             }}
